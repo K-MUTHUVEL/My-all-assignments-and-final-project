@@ -1,0 +1,36 @@
+* {
+    margin : 0px;
+    padding: 0px;
+}
+
+.parent1{
+    width:100%;
+    background-color: grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 5px;
+    display : flex;
+    justify-content: space-evenly;
+}
+
+.child1{
+    height: 200px;
+    width: 15%;
+    background-color: red;
+
+}
+
+.parent2{
+    width:100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.child2{
+    height:200px;
+    width:20%;
+    margin-left:4%;
+    background-color: grey;
+    display:inline-block;
+}

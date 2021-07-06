@@ -1,0 +1,490 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+.header{
+    width:100%;
+    height:70px;
+    /* background-color:  rgba(0,0,0, 0.7); */
+    display: flex;
+    justify-content:center;
+    position: fixed;
+}
+
+.container{
+    width:90%;
+    /* background-color:red; */
+    display:flex;
+   
+    
+}
+
+.header_container{
+    justify-content: space-between;
+}
+
+.logo{
+    height:70px;
+    width:15%;
+    /* background-color:violet; */
+    display:flex;
+    justify-content:center;
+        
+}  
+
+.logo_heading{
+    font-family: Segoe UI;
+    line-height:70px;
+    font-size:35px;
+    color:white;
+} 
+
+.nav{
+    width:35%;
+    height:70px;
+    /* background-color: yellow; */
+    display:flex;
+}
+
+.nav-items{
+    height:70px;
+    width:20%;
+    /* background-color: grey; */
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 70px;
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+}
+
+.nav-items:hover{
+    background-color:white;
+    color:  rgba(75, 150, 214, 0.7);
+    transition: 0.4s;
+}
+
+/* Banner */
+
+.banner{
+    height: 95vh;
+    width:100%;
+    background-size: cover;
+    background-image: url('./images/banner.jpg');
+}
+
+.overlay{
+    height: 95vh;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    display:flex;
+    align-items:center;
+}
+
+.banner_words{
+    height:225px;
+    width:50%;
+    background-color: rgba(75, 150, 214, 0.7);
+    display:flex;
+    align-items:center;
+    font-family:Segoe UI;
+    color: white;
+
+} 
+
+.banner_title{
+    font-size:30px;
+    margin-bottom:12px;
+}
+
+.banner_desc{
+    margin-bottom:25px;
+}
+
+.padd{
+    padding:20px;
+    /* background-color: red; */
+}
+
+.banner_btn{
+    font-size:19px;
+    color:white;
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-transform:uppercase;
+    font-family:Segoe UI;
+    font-weight:bold;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.banner_btn:hover{
+    background-color: white;
+    color: rgba(75, 150, 214, 0.7);
+    transition: 0.3s;
+}
+
+.services{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: #8080802e;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+   
+    
+}
+
+.service_container{
+    margin-top: 30px;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.service{
+    height: 350px;
+    width:40%;
+    background-color: white;
+    display:flex;
+    margin-top:20px;
+}
+
+
+.service_img{
+    height:350px;
+    width:40%;
+    /* background-color: thistle; */
+    display:flex;
+    overflow: hidden;
+}
+
+.service_details{
+    height:350px;
+    width:60%;
+    /* background-color: red; */
+    display:flex;
+    align-items:center;
+    
+} 
+
+.service_padd{
+    padding:20px;
+}
+
+.service_heading{
+    font-family:Segoe UI;
+    margin-bottom:15px;
+}
+
+.service_desc{
+    font-family:Segoe UI;
+    margin-bottom: 15px;
+}
+
+.service_btn{
+    font-size:19px;
+    color:white;
+    background-color: rgba(75, 150, 214, 0.7); ;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:13px;
+    padding-bottom:13px;
+    text-transform:uppercase;
+    font-family:Segoe UI;
+    font-weight:bold;
+    cursor: pointer;
+    transition:0.4s;
+}
+
+.service_btn:hover{
+    background-color: white;
+    color: rgba(75, 150, 214, 0.7);
+}
+
+.about{
+    padding-top: 50px;
+    padding-bottom:50px;
+    width:100%;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: Segoe UI;
+
+}
+
+.about_container{
+    margin-top:20px;
+    line-height:30px;
+    /* display:inline; */
+}
+
+.start_text{
+    color:rgba(56, 54, 54, .8);
+    font-size:50px;
+    font-weight:bold;
+    font-familY:segoe UI;
+}
+
+.highlight{
+    padding-top: 50px;
+    padding-bottom:50px;
+    background-color:  rgba(75, 150, 214, 0.7);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.highlight_container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.highlight_ele{
+    width:23%;
+    height:200px;
+    background-color: rgba(0,0,0,0.4);
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+}
+
+.highlight_ele_child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:seashell
+}
+
+.highlight_title{
+    font-size: 40px;
+}
+
+.highlight_desc{
+    font-size:20px;
+}
+
+.quotes{
+    padding-top:50px;
+    padding-bottom:50px;
+    /* background-color:grey; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.quotes_container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.quotes_title{
+    font-size:40px;
+    margin-bottom: 20px;
+}
+
+.quotes_btn{
+    font-size:19px;
+    color:white;
+    background-color: rgb(75, 150, 214);
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-transform:uppercase;
+    font-family:Segoe UI;
+    font-weight:bold;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.quotes_btn:hover{
+    background-color:white;
+    color: rgb(75, 150, 214);
+}
+
+.portfolio{
+   
+    width :100%;
+    background-color: rgb(209, 198, 198);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Segoe UI;
+    
+}
+
+.portfolio_container{
+    /* margin-top: 20px; */
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+  
+
+}
+
+.project{
+    width:25%;
+    height:250px;
+    background-color: yellow;
+    font-size:16px;
+    font-weight: bold;
+    display: flex;
+   
+}
+
+.project1{
+    background-image: url('https://images.pexels.com/photos/3836671/pexels-photo-3836671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project2{
+    background-image: url('https://images.pexels.com/photos/276510/pexels-photo-276510.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+
+}
+
+.project3{
+    background-image: url('https://images.pexels.com/photos/3879160/pexels-photo-3879160.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project4{
+    background-image: url('https://images.pexels.com/photos/723240/pexels-photo-723240.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project5{
+    background-image: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project6{
+    background-image: url('https://images.pexels.com/photos/681795/pexels-photo-681795.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project7{
+    background-image: url('https://images.pexels.com/photos/3007370/pexels-photo-3007370.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project8{
+    background-image: url('https://images.pexels.com/photos/3657154/pexels-photo-3657154.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_title{
+    height:90px;
+    width:100%;
+    background-color: rgba(75, 150, 214, .5);
+    display: flex;
+    /* justify-content: center; */
+    text-indent: 30px;
+    line-height:100px ;
+    cursor:pointer;
+    color:white;
+    transition: .4s;
+   
+}
+
+.project_title:hover{
+    height: 250px;
+}
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0,0,0,.8);
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer_child{
+    width:25%;
+    height:200px;
+    /* background-color: grey; */
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.footer_child1{
+    /* text-indent: 20px; */
+    align-items: center;
+    color:white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+ul{
+    margin-top: 40px;
+}
+
+li{
+    list-style-type: none;
+    margin: 3px;
+    color:white;
+}
+
+.first{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer_child4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_container{
+    justify-content: space-between;
+}
+
+.social_icon{
+    height:50px;
+    width:50px;
+    /* background-color: grey; */
+}
+
+.social_icon1{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-128.png');
+    background-size: cover;
+}
+
+.social_icon2{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/logotypes/32/square-google-plus-128.png');
+    background-size: cover;
+}
+
+.social_icon3{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png');
+    background-size: cover;
+}
+
+.social_icon4{
+    background-image: url('https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-03-128.png');
+    background-size: cover;
+}
+
